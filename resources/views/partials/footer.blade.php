@@ -34,7 +34,7 @@
             <!-- Company Links -->
             <div class="col-6 col-md-2">
                 <div class="footer-section">
-                    <div class="footer-section-title">Company</div>
+                    <div class="footer-section-title">company</div>
                     <div class="footer-links-list">
                         <a href="{{ env('WEBSITE_APP_URL') }}{{ env('COUNTRY_SLUG') }}/about">About Us</a>
                         <a href="{{ env('WEBSITE_APP_URL') }}{{ env('COUNTRY_SLUG') }}/contact">Contact</a>
