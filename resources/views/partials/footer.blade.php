@@ -36,9 +36,9 @@
                 <div class="footer-section">
                     <div class="footer-section-title">Company</div>
                     <div class="footer-links-list">
-                        <a href="uk-about">About Us</a>
-                        <a href="uk-contact">Contact</a>
-                        <a href="#">Blogs</a>
+                        <a href={{ env('WEBSITE_APP_URL') }}{{ env('COUNTRY_SLUG') }}/uk-about">About Us</a>
+                        <a href={{ env('WEBSITE_APP_URL') }}{{ env('COUNTRY_SLUG') }}/uk-contact>Contact</a>
+                        <a href={{ env('WEBSITE_APP_URL') }}{{ env('COUNTRY_SLUG') }}/uk-blogs>Blogs</a>
                     </div>
                 </div>
             </div>
@@ -48,8 +48,8 @@
                     <div class="footer-section-title">Legal</div>
                     <div class="footer-links-list">
                         <!--<a href="#">Security Policy</a>-->
-                        <a href="uk-privacy">Privacy Policy</a>
-                        <a href="uk-terms">Terms & Conditions</a>
+                        <a href={{ env('WEBSITE_APP_URL') }}{{ env('COUNTRY_SLUG') }}/uk-privacy>Privacy Policy</a>
+                        <a href={{ env('WEBSITE_APP_URL') }}{{ env('COUNTRY_SLUG') }}/uk-terms>Terms & Conditions</a>
                     </div>
                 </div>
             </div>
